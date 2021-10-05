@@ -39,32 +39,33 @@ from PikachuOpRobot.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-`𝐇𝐢..𝐖𝐞𝐥𝐜𝐨𝐦𝐞` [😎](https://telegra.ph/file/aebae6e955f9ba4adcedf.jpg)
-`𝐈'𝐦` 𝐏𝐢𝐤𝐚𝐜𝐡𝐮 🤗
-`𝐈'𝐦 𝐇𝐞𝐫𝐞 𝐓𝐨 𝐇𝐞𝐥𝐩 𝐘𝐨𝐮 𝐌𝐚𝐧𝐚𝐠𝐞 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬.. 𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐥𝐩 𝐁𝐮𝐭𝐭𝐨𝐧 𝐓𝐨 𝐅𝐢𝐧𝐝 𝐎𝐮𝐭 𝐌𝐨𝐫𝐞 𝐀𝐛𝐨𝐮𝐭 𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞 𝐓𝐨 𝐌𝐲 𝐅𝐮𝐥𝐥 𝐏𝐨𝐭𝐞𝐧𝐭𝐢𝐚𝐥..`
+**Hey🤞**, [I am 𝐋𝐢𝐯𝐯𝐲](https://telegra.ph/file/fce0bf475b8f03ab13c2f.jpg)🥀🍃☘️
+**I am an Advanced Group Manager Bot, With Lots of Cool Features❤️.**
+
+`For More Information Use the Button Below or Send` /help
 """
 
-buttons = [[InlineKeyboardButton(text="🖤 𝐇𝐞𝐥𝐩 𝐀𝐧𝐝 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 🖤",
+buttons = [[InlineKeyboardButton(text="Help And CMDs❓",
                                   callback_data="help_back"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="👾 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 👾",
-                                  url="t.me/Pikachu_op_robot?startgroup=true"),
+buttons += [[InlineKeyboardButton(text="Add Me Now🥳",
+                                  url="t.me/MissLivvyBot?startgroup=true"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="🎉 𝐉𝐨𝐢𝐧 𝐅𝐨𝐫 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 🎉",
-                                  url="https://t.me/TG_CODERS_UPDATES"),
-             InlineKeyboardButton(text="💝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩 💝",
-                                  url="https://t.me/TG_X_CODERS"),
+buttons += [[InlineKeyboardButton(text="Updates🎉",
+                                  url="https://t.me/RhythmOfficial"),
+             InlineKeyboardButton(text="Support💝",
+                                  url="https://t.me/RhythmOff"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="💫 𝐂𝐥𝐨𝐬𝐞 𝐌𝐚𝐢𝐧 𝐌𝐞𝐧𝐮 💫",
+buttons += [[InlineKeyboardButton(text="Close❌",
                                   callback_data="close_menu")]]
 
 
 HELP_STRINGS = f"""
-`𝐇𝐢.. 𝐈'𝐦` 𝐏𝐢𝐤𝐚𝐜𝐡𝐮 [😎](https://telegra.ph/file/8d7f24cd83fd817d3405f.jpg)
-`𝐂𝐥𝐢𝐜𝐤 𝐨𝐧 𝐭𝐡𝐞 𝐛𝐮𝐭𝐭𝐨𝐧𝐬 𝐛𝐞𝐥𝐨𝐰 𝐭𝐨 𝐠𝐞𝐭 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐦𝐨𝐝𝐮𝐥𝐞𝐬..`"""
+**Hey🤞**, [I am 𝐋𝐢𝐯𝐯𝐲](https://telegra.ph/file/fce0bf475b8f03ab13c2f.jpg)🥀🍃☘️
+`Click Buttons Below to Know There Features and CMDs...`"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -176,7 +177,7 @@ def start(update, context):
                 disable_web_page_preview=False,
             )
     else:
-        update.effective_message.reply_text("𝐇𝐞𝐲𝐚...,𝐏𝐢𝐤𝐚𝐜𝐡𝐮 🔥 𝐇𝐞𝐫𝐞,𝐇𝐨𝐰 𝐂𝐚𝐧 𝐈 𝐇𝐞𝐥𝐩 𝐘𝐨𝐮? 🧐")
+        update.effective_message.reply_text("**Hey🤞**, I am 𝐋𝐢𝐯𝐯𝐲🥀🍃☘️. How Can I Help You❓ ")
 
 
 
@@ -192,12 +193,12 @@ def send_start(update, context):
     chat = update.effective_chat  # type: Optional[Chat]
     first_name = update.effective_user.first_name
     text = PM_START_TEXT
-    buttons = [[InlineKeyboardButton(text="🖤 𝐇𝐞𝐥𝐩 𝐀𝐧𝐝 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 🖤",
+    buttons = [[InlineKeyboardButton(text="Help And CMDs❓",
                                   callback_data="help_back"),
     ]]
              
 
-    buttons += [[InlineKeyboardButton(text="𝐂𝐥𝐨𝐬𝐞 𝐌𝐚𝐢𝐧 𝐌𝐞𝐧𝐮🔥",
+    buttons += [[InlineKeyboardButton(text="Close❌",
                                   callback_data="close_menu")]]
 
 
@@ -221,7 +222,7 @@ def start_stop(update, context):
     chat = update.effective_chat  # type: Optional[Chat]
     first_name = update.effective_user.first_name
     text = "⚠ 𝐓𝐡𝐞 𝐌𝐞𝐧𝐮 𝐈𝐬 𝐂𝐥𝐨𝐬𝐞 ⚠"
-    buttons = [[InlineKeyboardButton(text="🔄 𝐑𝐞𝐨𝐩𝐞𝐧 𝐌𝐞𝐧𝐮 🔄",
+    buttons = [[InlineKeyboardButton(text="Reopen Menu🔄",
                                      callback_data="bot_start")]]
 
     update.effective_message.reply_text(
@@ -283,7 +284,7 @@ def help_button(update, context):
                 text=text,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup([[
-                    InlineKeyboardButton(text="🔙 Back",
+                    InlineKeyboardButton(text="Back🔙",
                                          callback_data="help_back")
                 ]]),
             )
@@ -340,12 +341,12 @@ def get_help(update, context):
     if chat.type != chat.PRIVATE:
 
         update.effective_message.reply_text(
-            "ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴘᴏssɪʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.🚸",
+            "Use this CMD In PM for More Info🚸",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="HELP ❓",
+                            text="Help And CMDs❓",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ]
@@ -366,7 +367,7 @@ def get_help(update, context):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="𝗚𝗢 𝗕𝗔𝗖𝗞 ", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="Back🔙", callback_data="help_back")]]
             ),
         )
 
@@ -444,7 +445,7 @@ def settings_button(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="𝗕𝗔𝗖𝗞 🤗",
+                                text="Back🔙",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -520,7 +521,7 @@ def get_settings(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="⚙️ 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦 ⚙️",
+                                text="Settings⚙️",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
@@ -530,7 +531,7 @@ def get_settings(update, context):
                 ),
             )
         else:
-            text = "ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs."
+            text = "Click Here to Check Your Settings.."
 
     else:
         send_settings(chat.id, user.id, True)
@@ -641,13 +642,13 @@ def main():
         updater.start_polling(timeout=15, read_latency=4)
         updater.bot.send_message(
             chat_id=MESSAGE_DUMP,
-            text="𝐏𝐢𝐤𝐚 𝐏𝐢𝐤𝐚 𝐈 𝐍𝐨𝐰 𝐎𝐧𝐥𝐢𝐧𝐞")
+            text="𝐋𝐢𝐯𝐯𝐲🥀🍃☘️ is Back on Fire🔥")
         client.run_until_disconnected()
 
     updater.idle()
 
 
 if __name__ == "__main__":
-    LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
+    LOGGER.info("Checked : " + str(ALL_MODULES))
     client.start(bot_token=TOKEN)
     main()
