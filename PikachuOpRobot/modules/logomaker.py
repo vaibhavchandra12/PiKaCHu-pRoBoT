@@ -278,7 +278,7 @@ async def lego(event):
     y = ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="white", stroke_width=1, stroke_fill="black")
     fname = "livvy.jpg"
-    img.save(fname, "jpg")
+    img.save(fname, ["jpg", "png"])
     await client.send_file(event.chat_id, file=fname, caption = f"Join @RhythmOff For Help")         
     await pesan.delete()
     if os.path.exists(fname):
