@@ -287,7 +287,7 @@ async def lego(event):
     await event.reply(f'Error, Report @RhythmOff, {e}')
 
     
-    __help__ = """
+__help__ = """
  ➩ /logo <name> Get a Cool Logo
 """
 
