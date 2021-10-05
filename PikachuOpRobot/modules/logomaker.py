@@ -13,7 +13,6 @@ from telethon.tl.types import InputMessagesFilterPhotos
 
 from PikachuOpRobot import OWNER_ID, client
 from telethon import events
-from PikachuOpRobot import telethn
 from PIL import Image, ImageDraw, ImageFont
 
 
