@@ -65,7 +65,7 @@ buttons += [[InlineKeyboardButton(text="Close❌",
 
 HELP_STRINGS = f"""
 **Hey🤞**, [I am 𝐋𝐢𝐯𝐯𝐲](https://telegra.ph/file/fce0bf475b8f03ab13c2f.jpg)🥀🍃☘️
-`Click Buttons Below to Know There Features and CMDs...`"""
+`Click Buttons Below to Know My Features and CMDs...`"""
 
 IMPORTED = {}
 MIGRATEABLE = []
