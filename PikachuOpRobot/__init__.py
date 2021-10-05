@@ -18,7 +18,7 @@ logging.basicConfig(
 
 LOGGER = logging.getLogger(__name__)
 
-LOGGER.info("Starting Pikachu...")
+LOGGER.info("Starting LivvyBot...")
 
 # if version < 3.8, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 8:
@@ -202,7 +202,7 @@ else:
 # Telethon
 api_id = TELETHON_ID
 api_hash = TELETHON_HASH
-client = TelegramClient("Elizabeth", api_id, api_hash)
+client = TelegramClient("LivvyBot", api_id, api_hash)
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 
